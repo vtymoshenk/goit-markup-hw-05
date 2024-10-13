@@ -470,6 +470,8 @@ img {
 }
 .form-footer {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .form-input-footer {
@@ -487,9 +489,20 @@ img {
   display: flex;
   min-width: 165px;
   height: 40px;
+  border-radius: 4px;
+  gap: 16px;
+  padding: 8px 24px;
   justify-content: center;
+  flex-direction: row;
   align-items: center;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
 }
 .link-footer {
   border-radius: 50px;
@@ -536,8 +549,7 @@ img {
   border-radius: 4px;
   padding: 24px;
   position: relative;
-  top: 50%;
-  left: 50%;
+
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -610,7 +622,6 @@ img {
 }
 .form-field-wraper {
   margin-bottom: 16px;
-  padding: 72px 24px 24px 24px;
 }
 
 .form-input-icon {
