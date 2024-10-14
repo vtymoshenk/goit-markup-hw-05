@@ -569,7 +569,7 @@ img {
   align-items: center;
   justify-content: center;
   position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+
   top: 24px;
   right: 24px;
   background-color: transparent;
@@ -632,6 +632,7 @@ img {
 }
 .form-field-wraper {
   margin-bottom: 8px;
+  padding: 72px 24px 24px 24px;
 }
 
 .form-input-icon {
@@ -680,10 +681,10 @@ img {
   outline: none;
 }
 .review-form-checkbox-wrapper {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
-.review-form-checkbox:checked > .review-form-custom-checkbox {
+.review-form-checkbox:checked + .review-form-custom-checkbox {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -719,6 +720,7 @@ img {
 }
 .form-btn {
   display: block;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   font-weight: 500;
   margin: 0 auto;
   font-size: 16px;
