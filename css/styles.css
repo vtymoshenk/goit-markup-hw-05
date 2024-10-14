@@ -691,12 +691,6 @@ img {
   margin-bottom: 24px;
 }
 
-.review-form-checkbox:checked + .review-form-custom-checkbox-label > .review-form-custom-checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .review-form-custom-checkbox {
   display: inline-flex;
   justify-content: center;
@@ -717,6 +711,13 @@ img {
   color: #8e8f99;
   line-height: 1.17;
 }
+
+.review-form-checkbox:checked + .review-form-custom-checkbox-label > .review-form-custom-checkbox {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
 .review-form-policy-link {
   text-decoration: underline;
   line-height: 1.33;
